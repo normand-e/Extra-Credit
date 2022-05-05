@@ -2,3 +2,12 @@
     Header
 ============= */
 
+header{
+    .header-grid{
+        display: grid;
+        grid-template-columns: auto 180px;
+    }
+}
+
+
+

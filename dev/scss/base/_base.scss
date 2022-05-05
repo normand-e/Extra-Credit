@@ -2,3 +2,21 @@
     Base
 ============= */
 
+.global-grid{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    div{
+        grid-area: content;
+    }
+
+}
+
+.hero-img{
+    img{
+        width: 100%;
+        display: block;
+        border: 0;
+    }
+    
+}

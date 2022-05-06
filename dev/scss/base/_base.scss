@@ -27,3 +27,26 @@
     margin-right: auto;
     width: 50%;
   }
+
+#sm-image{
+    @include md{
+        display: none;
+    }
+}
+
+#md-image{
+    display: none;
+    @include md{
+        display: block;
+    }
+    @include lg{
+        display: none;
+    }
+}
+
+#lg-image{
+    display: none;
+    @include lg{
+        display: block;
+    }
+}

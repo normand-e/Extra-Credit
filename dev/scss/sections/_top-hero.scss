@@ -1,0 +1,17 @@
+#top-hero{
+    #hero-pos{
+        width: 100vw;
+        height: 110vw;
+        background-image: url('../img/body/hero-top.jpg');
+        background-size: cover;
+        background-position: center;
+
+        @include md{
+            height: 90vw;
+        }
+        @include lg{
+            height: 70vw;
+        }
+    }
+
+} 

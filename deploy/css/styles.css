@@ -444,12 +444,46 @@ header .header-grid {
 /* =============
     Footer
 ============= */
+#top-hero #hero-pos {
+  width: 100vw;
+  height: 110vw;
+  background-image: url("../img/body/hero-top.jpg");
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  #top-hero #hero-pos {
+    height: 90vw;
+  }
+}
+@media (min-width: 1024px) {
+  #top-hero #hero-pos {
+    height: 70vw;
+  }
+}
+
+#headshot {
+  display: grid;
+  grid-template-columns: auto 113px auto;
+  grid-template-areas: ". head .";
+}
+#headshot > img {
+  width: 100%;
+  grid-area: head;
+}
+
 .flex-text {
   display: flex;
 }
 .flex-text p {
   width: 100%;
 }
+.slide-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .gallery-grid img {
   width: 100%;
   margin-bottom: 20px;

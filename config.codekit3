@@ -34,6 +34,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/body\/b-al.png" : {
+      "ft" : 32768,
+      "iS" : 163,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/b-al.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/b-math.png" : {
+      "ft" : 32768,
+      "iS" : 163,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/b-math.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/body\/circle-robot.jpg" : {
       "ft" : 16384,
       "iS" : 14856,
@@ -47,15 +73,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/emotion-slider.png" : {
-      "ft" : 32768,
-      "iS" : 5736,
+    "\/deploy\/img\/body\/emotion-slider.jpg" : {
+      "ft" : 16384,
+      "iS" : 892,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/emotion-slider.png",
+      "oAP" : "\/deploy\/img\/body\/emotion-slider.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -164,38 +190,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/hero_desktop.jpg" : {
-      "ft" : 16384,
-      "iS" : 330211,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/hero_desktop.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/hero_tablet.png" : {
-      "ft" : 32768,
-      "iS" : 636751,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/hero_tablet.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/Hero-2-Desktop.jpg" : {
+    "\/deploy\/img\/body\/hero-mid.jpg" : {
       "ft" : 16384,
       "iS" : 179133,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/Hero-2-Desktop.jpg",
+      "oAP" : "\/deploy\/img\/body\/hero-mid.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -203,41 +203,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/Hero-2-tablet.png" : {
-      "ft" : 32768,
-      "iS" : 427561,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/Hero-2-tablet.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/Hero-2.jpg" : {
+    "\/deploy\/img\/body\/hero-top.jpg" : {
       "ft" : 16384,
-      "iS" : 90985,
+      "iS" : 330211,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/Hero-2.jpg",
+      "oAP" : "\/deploy\/img\/body\/hero-top.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/Hero.png" : {
-      "ft" : 32768,
-      "iS" : 170811,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/Hero.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -264,6 +238,45 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/y-al.png" : {
+      "ft" : 32768,
+      "iS" : 163,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/y-al.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/y-emo.jpg" : {
+      "ft" : 16384,
+      "iS" : 719,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/y-emo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/y-math.png" : {
+      "ft" : 32768,
+      "iS" : 164,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/y-math.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

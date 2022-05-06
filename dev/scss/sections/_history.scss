@@ -1,3 +1,16 @@
 #history{
     
 }
+
+
+#headshot{
+    display: grid;
+    grid-template-columns: auto 113px auto;
+    grid-template-areas: ". head .";
+        >img{
+            width: 100%;
+            grid-area: head;
+        }
+    
+        
+}

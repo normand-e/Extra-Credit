@@ -1,0 +1,22 @@
+/* =============
+    Top Hero
+============= */
+
+#mid-hero{
+    #mid-hero-pos{
+        width: 100vw;
+        height: 130vw;
+        background-image: url('../img/body/hero-mid.jpg');
+        background-size: cover;
+        background-position: 70% 100%;
+
+        @include md{
+            height: 100vw;
+            background-position: 90% 100%;
+        }
+        @include lg{
+            height: 70vw;
+            background-position: 100% 100%;
+        }
+    }
+}

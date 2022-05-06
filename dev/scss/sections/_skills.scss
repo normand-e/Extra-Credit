@@ -1,5 +1,50 @@
 #skills{
+    @include lg{
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+}
 
+#skills-hero-pos{
+    width: 100vw;
+    height: 130vw;
+    background-image: url('../img/body/skills-bot.jpg');
+    background-size: cover;
+    background-position: 65% 100%;
+
+    @include md{
+        height: 65vw;
+        background-position: 100% 100%;
+    }
+    @include lg{
+        width: 40vw;
+        height: 40vw;
+        background-position: 55% 80%;
+    }
+}
+
+#emotion{
+    aside{
+        display: grid;
+        grid-template-columns: 62% auto;
+  
+    }
+}
+
+#learning{
+    aside{
+        display: grid;
+        grid-template-columns: 90% auto;
+       
+    }
+}
+
+#math{
+    aside{
+        display: grid;
+        grid-template-columns: 95% auto;
+        
+    }
 }
 
 
@@ -18,4 +63,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.yellow{
+    background-color: var(--yellow);
+    height: 10px;
+   
+}
+.black{
+    background-color: var(--black);
+    height: 10px;
 }

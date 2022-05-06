@@ -21,64 +21,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/body\/al-slider.png" : {
-      "ft" : 32768,
-      "iS" : 5701,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/al-slider.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/b-al.png" : {
-      "ft" : 32768,
-      "iS" : 163,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/b-al.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/b-math.png" : {
-      "ft" : 32768,
-      "iS" : 163,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/b-math.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/body\/circle-robot.jpg" : {
       "ft" : 16384,
       "iS" : 14856,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/body\/circle-robot.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/emotion-slider.jpg" : {
-      "ft" : 16384,
-      "iS" : 892,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/emotion-slider.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -177,19 +125,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/grid-bot-tablet.jpg" : {
-      "ft" : 16384,
-      "iS" : 252908,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/grid-bot-tablet.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/body\/hero-mid.jpg" : {
       "ft" : 16384,
       "iS" : 179133,
@@ -216,19 +151,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/math-slider.png" : {
-      "ft" : 32768,
-      "iS" : 5593,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/math-slider.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/body\/robot-skills-bot.jpg" : {
       "ft" : 16384,
       "iS" : 105777,
@@ -242,41 +164,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/body\/y-al.png" : {
-      "ft" : 32768,
-      "iS" : 163,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/y-al.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/y-emo.jpg" : {
+    "\/deploy\/img\/body\/skills-bot.jpg" : {
       "ft" : 16384,
-      "iS" : 719,
+      "iS" : 252908,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/y-emo.jpg",
+      "oAP" : "\/deploy\/img\/body\/skills-bot.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/body\/y-math.png" : {
-      "ft" : 32768,
-      "iS" : 164,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/body\/y-math.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

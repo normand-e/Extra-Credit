@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/body\/al-slider.png" : {
+      "ft" : 32768,
+      "iS" : 5701,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/al-slider.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/body\/circle-robot.jpg" : {
       "ft" : 16384,
       "iS" : 14856,
@@ -30,6 +43,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/emotion-slider.png" : {
+      "ft" : 32768,
+      "iS" : 5736,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/emotion-slider.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -208,6 +234,19 @@
       "iS" : 170811,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/body\/Hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/body\/math-slider.png" : {
+      "ft" : 32768,
+      "iS" : 5593,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/body\/math-slider.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

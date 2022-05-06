@@ -454,3 +454,46 @@ header .header-grid {
   width: 100%;
   margin-bottom: 20px;
 }
+.gallery-grid #g3 {
+  display: none;
+}
+.gallery-grid #g5 {
+  display: none;
+}
+.gallery-grid #g6 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .gallery-grid {
+    display: grid;
+    gap: 34px;
+    grid-template-areas: "one two" "one word" "four three";
+  }
+  .gallery-grid #g1 {
+    grid-area: word;
+  }
+  .gallery-grid #g2 {
+    grid-area: one;
+  }
+  .gallery-grid #g4 {
+    grid-area: two;
+  }
+  .gallery-grid #g6 {
+    display: block;
+    grid-area: four;
+  }
+}
+@media (min-width: 1024px) {
+  .gallery-grid {
+    gap: 16px;
+    grid-template-areas: "one five two" "one word six" "three four six";
+  }
+  .gallery-grid #g3 {
+    display: block;
+    grid-area: five;
+  }
+  .gallery-grid #g5 {
+    display: block;
+    grid-area: six;
+  }
+}

@@ -408,9 +408,31 @@ template {
   }
 }
 
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+.global-margin {
+  margin-top: 60px;
+}
+@media (min-width: 1024px) {
+  .global-margin {
+    margin-top: 100px;
+  }
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4 {
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -468,6 +490,57 @@ header .header-grid {
   #top-hero #top-hero-pos {
     height: 70vw;
   }
+}
+
+#history section {
+  text-align: center;
+}
+#history section h2 {
+  margin-top: 20px;
+  color: var(--yellow);
+  font-size: 1.9375rem;
+  margin-top: 38px;
+}
+@media (min-width: 768px) {
+  #history section h2 {
+    margin-top: 41px;
+  }
+}
+@media (min-width: 1024px) {
+  #history section h2 {
+    margin-top: 32px;
+  }
+}
+#history section section {
+  color: var(--yellow);
+}
+@media (min-width: 768px) {
+  #history section section {
+    display: flex;
+    justify-content: center;
+  }
+}
+#history section section #machine {
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  #history section section #machine {
+    padding-right: 20px;
+  }
+}
+#history section section #learning {
+  font-size: 2.875rem;
+}
+#history #p1 {
+  text-align: justify;
+  font-style: italic;
+  font-weight: 300;
+}
+#history #p2 {
+  text-align: justify;
+}
+#history #p2 span {
+  font-weight: 700;
 }
 
 #headshot {

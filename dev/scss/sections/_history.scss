@@ -1,9 +1,63 @@
 #history{
     
+    
+    section{
+        text-align: center;
+
+        h2{
+            margin-top: 20px;
+            color: var(--yellow);
+            font-size: rem-calc(31);
+            margin-top: 38px;
+            @include md{
+                margin-top: 41px;
+            }
+            @include lg{
+                margin-top: 32px;
+            }
+        }
+
+
+        section{
+            color: var(--yellow);
+            @include md{
+                display: flex;
+                justify-content: center;
+            }
+            #machine{
+                font-size: rem-calc(48);
+                @include md{
+                    padding-right: 20px;
+                }
+                
+            }
+            #learning{
+                font-size: rem-calc(46);
+                
+            }
+        }
+        
+    }
+    
+
+    #p1{
+        text-align: justify;
+        font-style: italic;
+        font-weight: 300;
+        
+    }
+    #p2{
+        text-align: justify;
+        span{
+            font-weight: 700;
+        }
+        // text-align: left;
+    }
 }
 
 
 #headshot{
+    
     display: grid;
     grid-template-columns: auto 113px auto;
     grid-template-areas: ". head .";

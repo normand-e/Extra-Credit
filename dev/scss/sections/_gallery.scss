@@ -1,64 +1,89 @@
-.gallery-grid{
+#gallery {}
 
-    img{
+.gallery-grid {
+
+
+    img {
         width: 100%;
         margin-bottom: 20px;
     }
 
 
-    #g3{
+    #g3 {
         display: none;
     }
 
-    #g5{
+    #g5 {
         display: none;
-    }
-    #g6{
-        display: none;
-        
-        
     }
 
-    @include md{
+    #g6 {
+        display: none;
+
+
+    }
+
+    @include md {
         display: grid;
         gap: 34px;
-        grid-template-areas: 
-        "one two"
-        "one word"
-        "four three";
-        #g1{
+        grid-template-areas:
+            "one two"
+            "one word"
+            "four three";
+
+        #g1 {
             grid-area: word;
         }
-        #g2{
+
+        #g2 {
             grid-area: one;
         }
-        #g4{
+
+        #g4 {
             grid-area: two;
         }
-        #g6{
+
+        #g6 {
             display: block;
             grid-area: four;
         }
     }
 
-    @include lg{
+    @include lg {
         gap: 16px;
-        grid-template-areas: 
-        "one five two"
-        "one word six"
-        "three four six";
-        #g3{
+        grid-template-areas:
+            "one five two"
+            "one word six"
+            "three four six";
+
+        #g3 {
             display: block;
             grid-area: five;
         }
-    
-        #g5{
+
+        #g5 {
             display: block;
             grid-area: six;
         }
-        
-            
+
+
     }
 
 
+}
+
+
+
+#g1 {
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size: rem-calc(43);
+        color: var(--yellow);
+      
+    }
+    
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid blue;
+    height: 35vw;
 }

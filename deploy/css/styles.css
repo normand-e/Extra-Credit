@@ -849,3 +849,15 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
     grid-area: six;
   }
 }
+
+#g1 {
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid blue;
+  height: 35vw;
+}
+#g1 h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.6875rem;
+  color: var(--yellow);
+}

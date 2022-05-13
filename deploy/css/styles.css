@@ -425,7 +425,7 @@ h1, h2, h3, h4, p {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: "Comfortaa", sans-serif;
 }
 
@@ -504,11 +504,24 @@ header .header-grid {
 @media (min-width: 768px) {
   #history section h2 {
     margin-top: 41px;
+    font-size: 2.625rem;
   }
 }
 @media (min-width: 1024px) {
   #history section h2 {
     margin-top: 32px;
+    font-size: 3.375rem;
+  }
+}
+#history section h4 {
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+@media (min-width: 768px) {
+  #history section h4 {
+    margin-top: 67px;
+    font-size: 1.1875rem;
   }
 }
 #history section section {
@@ -526,18 +539,73 @@ header .header-grid {
 @media (min-width: 768px) {
   #history section section #machine {
     padding-right: 20px;
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 1024px) {
+  #history section section #machine {
+    font-size: 4.125rem;
   }
 }
 #history section section #learning {
   font-size: 2.875rem;
 }
+@media (min-width: 768px) {
+  #history section section #learning {
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 1024px) {
+  #history section section #learning {
+    font-size: 4.125rem;
+  }
+}
 #history #p1 {
   text-align: justify;
   font-style: italic;
+  font-size: 1.125rem;
   font-weight: 300;
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  #history #p1 {
+    margin-top: 34px;
+  }
+}
+@media (min-width: 1024px) {
+  #history #p1 {
+    font-size: 1.125rem;
+    display: grid;
+    grid-template-columns: auto 665px auto;
+    grid-template-areas: ". par .";
+  }
+  #history #p1 p {
+    grid-area: par;
+  }
 }
 #history #p2 {
   text-align: justify;
+  margin-top: 120px;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #history #p2 {
+    margin-top: 166px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+@media (min-width: 1024px) {
+  #history #p2 {
+    font-size: 1.125rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 510px auto;
+    grid-template-areas: ". par .";
+  }
+  #history #p2 p {
+    grid-area: par;
+  }
 }
 #history #p2 span {
   font-weight: 700;

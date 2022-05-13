@@ -1,8 +1,42 @@
 #skills{
+    background-color: var(--gray);
+    color: #ffffff;
     @include lg{
         display: grid;
         grid-template-columns: 40% auto;
+        
     }
+
+    #robot-skills{
+   
+        h3{
+            margin-top: 55px;
+            font-size: rem-calc(21);
+            @include md{
+                margin-top: 25px;
+            }
+        }
+        p{
+            font-size: rem-calc(16);
+            @include md{
+                font-size: rem-calc(18);
+            }
+        }
+    }
+
+    #content-whole{
+        @include md{
+            padding: 0 80px;
+        }
+        @include lg{
+            padding-left: 70px;
+            padding-right: 35px;
+            
+        }
+    }
+    
+
+
 }
 
 #skills-hero-pos{
@@ -18,12 +52,18 @@
     }
     @include lg{
         width: 40vw;
-        height: 40vw;
-        background-position: 55% 80%;
+        height: 48vw;
+        background-position: 65% 80%;
     }
 }
 
 #emotion{
+    @include md{
+        margin-top: 70px;
+    }
+    @include lg{
+        margin-top: 40px;
+    }
     aside{
         display: grid;
         grid-template-columns: 62% auto;
@@ -40,6 +80,7 @@
 }
 
 #math{
+    padding-bottom: 60px;
     aside{
         display: grid;
         grid-template-columns: 95% auto;
@@ -50,20 +91,27 @@
 
 .flex-text{
     display: flex;
+    margin-bottom: 5px;
+    margin-top: 4vh;
+    @include lg{
+        margin-top: 5vh;
+    }
+
+
     p{
         width: 100%;
+        font-size: rem-calc(18);
+        align-self: center;
     }
     h5{
+        font-weight: 700;
+        font-size: rem-calc(18);
 
+       
     }
 }
 
 
-.slide-flex{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .yellow{
     background-color: var(--yellow);
@@ -74,3 +122,4 @@
     background-color: var(--black);
     height: 10px;
 }
+

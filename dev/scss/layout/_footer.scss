@@ -5,3 +5,56 @@
 /* =============
     Footer
 ============= */
+
+footer{
+
+    background-color: var(--yellow);
+    
+
+    h3{
+        margin-top: 45px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: rem-calc(20);
+        @include md{
+            margin-top: 38px;
+            font-size: rem-calc(26);
+        }
+        
+        
+    }
+    
+    span{
+        color: #FFFFFF;
+    }
+
+    section{
+        margin-top: 12px;
+        margin-bottom: 40px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        @include md{
+            a{
+                // width: 26px;
+                // height: 26px;
+                font-size: rem-calc(26);
+            }
+            
+        }
+        a:link, a:visited{
+            color: var(--black);
+            
+           
+
+            &:hover, &:active{
+                transition: 0.25s;
+                color: #ffffff;
+
+            }
+        }
+    }
+
+
+}

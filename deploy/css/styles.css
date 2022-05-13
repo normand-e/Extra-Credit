@@ -472,6 +472,45 @@ header .header-grid {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--yellow);
+}
+footer h3 {
+  margin-top: 45px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  footer h3 {
+    margin-top: 38px;
+    font-size: 1.625rem;
+  }
+}
+footer span {
+  color: #FFFFFF;
+}
+footer section {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  footer section a {
+    font-size: 1.625rem;
+  }
+}
+footer section a:link, footer section a:visited {
+  color: var(--black);
+}
+footer section a:link:hover, footer section a:link:active, footer section a:visited:hover, footer section a:visited:active {
+  transition: 0.25s;
+  color: #ffffff;
+}
+
 /* =============
     Top Hero
 ============= */

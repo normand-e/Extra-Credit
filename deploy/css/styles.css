@@ -423,6 +423,12 @@ h1, h2, h3, h4, h5, p {
   }
 }
 
+@media (min-width: 1024px) {
+  .hide-lg {
+    display: none;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -458,12 +464,105 @@ textarea {
 /* =============
     Navigation
 ============= */
+a:link,
+a:visited {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: none;
+  height: 100vh;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 70vw;
+  box-sizing: border-box;
+}
+@media (min-width: 1024px) {
+  nav {
+    display: block;
+    background-color: transparent;
+    height: 50%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav section {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-top: 10vh;
+}
+@media (min-width: 1024px) {
+  nav section {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-right: 2vw;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  nav section ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+nav section ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+@media (min-width: 1024px) {
+  nav section ul li {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 25px;
+  }
+}
+nav section a:link,
+nav section a:visited {
+  display: inline-block;
+  padding-bottom: 32px;
+  font-size: 1.25rem;
+}
+@media (min-width: 1024px) {
+  nav section a:link,
+nav section a:visited {
+    font-size: 1.5rem;
+  }
+}
 /* =============
     Header
 ============= */
-header .header-grid {
-  display: grid;
-  grid-template-columns: auto 180px;
+#burger-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+@media (min-width: 1024px) {
+  #burger-container {
+    display: none;
+  }
+}
+
+#burger-btn {
+  background: none;
+  border: none;
+  padding: 16px;
+  color: var(--light-pink);
 }
 
 /* =============
@@ -474,17 +573,6 @@ header .header-grid {
 ============= */
 footer {
   background-color: var(--yellow);
-  margin-top: 40px;
-}
-@media (min-width: 768px) {
-  footer {
-    margin-top: 60px;
-  }
-}
-@media (min-width: 1024px) {
-  footer {
-    margin-top: 100px;
-  }
 }
 footer h3 {
   margin-top: 45px;

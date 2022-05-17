@@ -9,13 +9,7 @@
 footer{
 
     background-color: var(--yellow);
-    margin-top: 40px;
-    @include md{
-        margin-top: 60px;
-    }
-    @include lg{
-        margin-top: 100px;
-    }
+   
     
 
     h3{

@@ -19,8 +19,8 @@ ul {
 
 
 nav {
-    display: none;
-    // background-color: var(--light-pink);
+    // display: none;
+    background-color: var(--yellow);
     height: 100vh;
     padding: 16px;
     position: fixed;
@@ -29,7 +29,7 @@ nav {
     width: 70vw;
     box-sizing: border-box;
 
-    @include lg {
+    @include md {
         display: block;
         background-color: transparent;
         height: 50%;
@@ -39,25 +39,25 @@ nav {
     }
 
 
-    aside {
+    aside { //close button
         display: flex;
         justify-content: flex-end;
 
-        // button {
-        //     background-color: transparent;
-        //     border: none;
-        //     // color: var(--dark-green);
-        // }
+        button {
+            background-color: transparent;
+            border: none;
+        
+        }
     }
 
     section {
         display: flex;
-        justify-content: center;
-        align-content: flex-start;
-    
+        justify-content: right;
+        align-content: flex-end;
+        padding-right: 10vw;
         margin-top: 10vh;
 
-        @include lg {
+        @include md {
             
             margin-top: 5vh;
             margin-bottom: 3vh;
@@ -85,14 +85,15 @@ nav {
             li {
 
                 display: flex;
-                justify-content: flex-start;
+                justify-content: flex-end;
                 
 
 
-                @include lg {
+                @include md {
                     
                     margin-bottom: 0;
                     padding-top: 0;
+                   
                     padding-left: 25px;
 
                 }
@@ -106,19 +107,19 @@ nav {
         a:link,
         a:visited {
 
-            // color: var(--dark-green);
+            color: var(--black);
             display: inline-block;
             padding-bottom: 32px;
             font-size: rem-calc(20);
 
-            @include lg {
-                // color: var(--light-pink);
+            @include md {
+
                 font-size: rem-calc(24);
             }
 
             &:hover,
             &:active {
-                // color: var(--dark-pink);
+                color: var(--white);
 
 
             }

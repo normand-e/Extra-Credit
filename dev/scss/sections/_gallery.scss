@@ -6,6 +6,9 @@
     img {
         width: 100%;
         margin-bottom: 20px;
+        @include md{
+            margin-bottom: 0;
+        }
     }
 
 
@@ -24,6 +27,7 @@
     }
 
     @include md {
+        margin-top: 50px;
         display: grid;
         gap: 34px;
         grid-template-areas:
@@ -51,10 +55,11 @@
 
     @include lg {
         gap: 16px;
+        grid-template-columns: auto 320px 320px 320px auto;
         grid-template-areas:
-            "one five two"
-            "one word six"
-            "three four six";
+            ". one five two ."
+            ". one word six ."
+            ". three four six .";
 
         #g3 {
             display: block;
@@ -65,7 +70,11 @@
             display: block;
             grid-area: six;
         }
-
+        #g7 {
+            display: block;
+            grid-area: three;
+        }
+    
 
     }
 
@@ -75,15 +84,43 @@
 
 
 #g1 {
-    h1{
+    h1 {
         font-family: 'Pacifico', cursive;
         font-size: rem-calc(43);
         color: var(--yellow);
-      
+
+        @include md {
+            font-size: rem-calc(46);
+        }
+
     }
-    
+
     box-sizing: border-box;
     text-align: center;
-    border: 1px solid blue;
-    height: 35vw;
+    height: 234px;
+    padding-top: 95px; //center in box
+    margin-bottom: 20px;
+    margin-top: 61px; //space between block robot
+
+    @include md {
+
+        height: 277px;
+        padding-top: 115px; //center in box
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    @include lg {
+        height: 250px;
+        padding-top: 102px; //center in box
+
+    }
+
+}
+
+#g3, #g4, #g6, #g7{
+    @include lg{
+        height: 100%;
+    }
+    
 }

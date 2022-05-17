@@ -474,6 +474,17 @@ header .header-grid {
 ============= */
 footer {
   background-color: var(--yellow);
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  footer {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    margin-top: 100px;
+  }
 }
 footer h3 {
   margin-top: 45px;
@@ -806,6 +817,11 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
   width: 100%;
   margin-bottom: 20px;
 }
+@media (min-width: 768px) {
+  .gallery-grid img {
+    margin-bottom: 0;
+  }
+}
 .gallery-grid #g3 {
   display: none;
 }
@@ -817,6 +833,7 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
 }
 @media (min-width: 768px) {
   .gallery-grid {
+    margin-top: 50px;
     display: grid;
     gap: 34px;
     grid-template-areas: "one two" "one word" "four three";
@@ -838,7 +855,8 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
 @media (min-width: 1024px) {
   .gallery-grid {
     gap: 16px;
-    grid-template-areas: "one five two" "one word six" "three four six";
+    grid-template-columns: auto 320px 320px 320px auto;
+    grid-template-areas: ". one five two ." ". one word six ." ". three four six .";
   }
   .gallery-grid #g3 {
     display: block;
@@ -848,16 +866,47 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
     display: block;
     grid-area: six;
   }
+  .gallery-grid #g7 {
+    display: block;
+    grid-area: three;
+  }
 }
 
 #g1 {
   box-sizing: border-box;
   text-align: center;
-  border: 1px solid blue;
-  height: 35vw;
+  height: 234px;
+  padding-top: 95px;
+  margin-bottom: 20px;
+  margin-top: 61px;
 }
 #g1 h1 {
   font-family: "Pacifico", cursive;
   font-size: 2.6875rem;
   color: var(--yellow);
+}
+@media (min-width: 768px) {
+  #g1 h1 {
+    font-size: 2.875rem;
+  }
+}
+@media (min-width: 768px) {
+  #g1 {
+    height: 277px;
+    padding-top: 115px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  #g1 {
+    height: 250px;
+    padding-top: 102px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #g3, #g4, #g6, #g7 {
+    height: 100%;
+  }
 }

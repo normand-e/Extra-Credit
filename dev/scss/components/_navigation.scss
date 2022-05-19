@@ -50,10 +50,8 @@ nav {
         }
     }
 
-    section {
-        display: flex;
-        justify-content: right;
-        align-content: flex-start;
+    >section {
+
         padding-right: 10vw;
         margin-top: 10vh;
 
@@ -61,9 +59,7 @@ nav {
             
             margin-top: 2vh;
             margin-bottom: 2vh;
-            margin-right: 2vw;
-            justify-content: flex-end;
-            
+
 
 
         }
@@ -76,23 +72,29 @@ nav {
             @include md{
 
                 display: flex;
-                justify-content: flex-start;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-left: 10px;
+                align-items: center;
+                // justify-content: flex-start;
                 
 
 
             }
 
             li {
-
-                // display: flex;
-                // justify-content: flex-end;
-                border-right: 1px solid black;
+                padding-left: 10px;
+                padding-right: 10px;
+                
+                
+                
 
 
                 @include md {
-                    justify-content: space-between;
-                    margin-bottom: 0;
-                    padding-top: 0;
+                    // justify-content: space-between;
+                   
+                    border-right: 2px solid black;
+                    
                    
                     // padding-left: 25px;
 
@@ -119,7 +121,7 @@ nav {
             color: var(--black);
             display: inline-block;
             // padding-bottom: 32px;
-            padding: 10px;
+            // padding: 10px;
             font-size: rem-calc(20);
 
             @include md {
@@ -129,7 +131,7 @@ nav {
 
             &:hover,
             &:active {
-                color: var(--white);
+                color: var(--gray);
 
 
             }

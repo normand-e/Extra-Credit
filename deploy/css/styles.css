@@ -523,60 +523,56 @@ nav aside button {
   background-color: transparent;
   border: none;
 }
-nav section {
-  display: flex;
-  justify-content: right;
-  align-content: flex-start;
+nav > section {
   padding-right: 10vw;
   margin-top: 10vh;
 }
 @media (min-width: 768px) {
-  nav section {
+  nav > section {
     margin-top: 2vh;
     margin-bottom: 2vh;
-    margin-right: 2vw;
-    justify-content: flex-end;
   }
 }
 @media (min-width: 768px) {
-  nav section ul {
+  nav > section ul {
     display: flex;
-    justify-content: flex-start;
-  }
-}
-nav section ul li {
-  border-right: 1px solid black;
-}
-@media (min-width: 768px) {
-  nav section ul li {
-    justify-content: space-between;
     margin-bottom: 0;
     padding-top: 0;
+    padding-left: 10px;
+    align-items: center;
   }
-  nav section ul li:first-child {
+}
+nav > section ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  nav > section ul li {
+    border-right: 2px solid black;
+  }
+  nav > section ul li:first-child {
     border: none;
   }
-  nav section ul li:last-child {
+  nav > section ul li:last-child {
     border: none;
   }
 }
-nav section a:link,
-nav section a:visited {
+nav > section a:link,
+nav > section a:visited {
   color: var(--black);
   display: inline-block;
-  padding: 10px;
   font-size: 1.25rem;
 }
 @media (min-width: 768px) {
-  nav section a:link,
-nav section a:visited {
+  nav > section a:link,
+nav > section a:visited {
     font-size: 1.5rem;
   }
 }
-nav section a:link:hover, nav section a:link:active,
-nav section a:visited:hover,
-nav section a:visited:active {
-  color: var(--white);
+nav > section a:link:hover, nav > section a:link:active,
+nav > section a:visited:hover,
+nav > section a:visited:active {
+  color: var(--gray);
 }
 
 /* =============
@@ -589,6 +585,13 @@ header #survival {
   border-radius: 25px;
   background-color: var(--yellow);
   font-size: 1.125rem;
+}
+header div {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+header div #right-side {
+  margin-left: auto;
 }
 
 #burger-container {

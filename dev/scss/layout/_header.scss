@@ -16,6 +16,14 @@ header {
         font-size: rem-calc(18);
     }
 
+
+    div{
+        display: grid;
+        grid-template-columns: 40% auto;
+        #right-side{
+            margin-left: auto;
+        }
+    }
     // aside {
     //     img {
     //         padding: 18px 10px 0 20px;

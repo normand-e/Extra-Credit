@@ -893,7 +893,7 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
   grid-template-columns: 62% auto;
 }
 
-#learning aside {
+#act-learning aside {
   display: grid;
   grid-template-columns: 90% auto;
 }

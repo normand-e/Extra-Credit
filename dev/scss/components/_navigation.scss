@@ -16,9 +16,6 @@ ul {
     font-family: 'Roboto Slab', serif;
 }
 
-
-
-
 nav {
     display: none;
     background-color: var(--yellow);
@@ -62,12 +59,7 @@ nav {
             margin-top: 2vh;
             margin-bottom: 2vh;
 
-
-
         }
-
-
-
 
         ul {
 
@@ -79,29 +71,20 @@ nav {
                 padding-left: 10px;
                 align-items: center;
 
-                
-
 
             }
 
             li {
                 padding-left: 15px;
                 padding-right: 15px;
-                padding-bottom: 16px;
-                
-                
-                
+                padding-bottom: 16px;    
 
 
                 @include md {
-                    // justify-content: space-between;
+                
                     padding-bottom: 0;
                     border-right: 2px solid black;
-                    
-                   
-                    // padding-left: 25px;
-
-
+  
                     &:first-child{
                         border: none;
                     }
@@ -123,8 +106,7 @@ nav {
 
             color: var(--black);
             display: inline-block;
-            // padding-bottom: 32px;
-            // padding: 10px;
+  
             font-size: rem-calc(20);
 
             @include md {

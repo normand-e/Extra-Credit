@@ -5,7 +5,7 @@ let mainMenu = document.querySelector("#main-menu");
 let canSeeMenu = false;
 
 burgerBtn.addEventListener("click", () => {
-    // console.log(canSeeMenu);
+    console.log(canSeeMenu);
 
     if(!canSeeMenu){
         mainMenu.classList.add("show-menu");

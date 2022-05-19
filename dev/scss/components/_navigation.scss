@@ -19,7 +19,7 @@ ul {
 
 
 nav {
-    // display: none;
+    display: none;
     background-color: var(--yellow);
     height: 100vh;
     padding: 16px;
@@ -53,14 +53,14 @@ nav {
     section {
         display: flex;
         justify-content: right;
-        align-content: flex-end;
+        align-content: flex-start;
         padding-right: 10vw;
         margin-top: 10vh;
 
         @include md {
             
-            margin-top: 5vh;
-            margin-bottom: 3vh;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
             margin-right: 2vw;
             justify-content: flex-end;
             
@@ -84,21 +84,30 @@ nav {
 
             li {
 
-                display: flex;
-                justify-content: flex-end;
-                
+                // display: flex;
+                // justify-content: flex-end;
+                border-right: 1px solid black;
 
 
                 @include md {
-                    
+                    justify-content: space-between;
                     margin-bottom: 0;
                     padding-top: 0;
                    
-                    padding-left: 25px;
+                    // padding-left: 25px;
 
+
+                    &:first-child{
+                        border: none;
+                    }
+
+                    &:last-child{
+                        border: none;
+                    }
                 }
 
             }
+
 
         }
 
@@ -109,7 +118,8 @@ nav {
 
             color: var(--black);
             display: inline-block;
-            padding-bottom: 32px;
+            // padding-bottom: 32px;
+            padding: 10px;
             font-size: rem-calc(20);
 
             @include md {

@@ -177,19 +177,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/header\/burger.png" : {
-      "ft" : 32768,
-      "iS" : 222,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/burger.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/header\/robot.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1205,7 +1192,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {

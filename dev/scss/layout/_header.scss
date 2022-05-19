@@ -2,27 +2,77 @@
     Header
 ============= */
 
-header{
-   
+header {
+
+    #survival {
+        padding: 5px 20px;
+        margin-top: 15px;
+        margin-right: 10px;
+        border-radius: 25px;
+
+        background-color: var(--yellow);
+
+        //    border: none;
+        font-size: rem-calc(18);
+    }
+
+    // aside {
+    //     img {
+    //         padding: 18px 10px 0 20px;
+    //     }
+
+    // }
+
+    // section {
+    //     display: grid;
+    //     grid-template-columns: 50% auto;
+
+    //     div {
+    //         div {
+    //             display: flex;
+    //             justify-content: flex-end;
+
+    //         }
+    //     }
+
+    //     @include md {
+    //         display: block;
+    //     }
+
+    //     div {
+    //         @include md {
+    //             display: grid;
+    //             grid-template-columns: 50% auto;
+
+    //             section {
+    //                 display: flex;
+    //             }
+    //         }
+
+
+
+
+    //     }
+    // }
 }
 
 
 
-#burger-container{
+#burger-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
 
-    
+
 }
 
 
-#burger-btn{
+#burger-btn {
     background: none;
     border: none;
-    
+
     padding: 16px;
     color: var(--black);
-    
+
 }

@@ -410,6 +410,10 @@ template {
   }
 }
 
+button {
+  border: none;
+}
+
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
@@ -437,6 +441,10 @@ h1, h2, h3, h4, h5, p {
   .show-md {
     display: block;
   }
+}
+
+.show-menu {
+  display: block !important;
 }
 
 /* =============
@@ -487,6 +495,7 @@ ul {
 }
 
 nav {
+  display: none;
   background-color: var(--yellow);
   height: 100vh;
   padding: 16px;
@@ -517,14 +526,14 @@ nav aside button {
 nav section {
   display: flex;
   justify-content: right;
-  align-content: flex-end;
+  align-content: flex-start;
   padding-right: 10vw;
   margin-top: 10vh;
 }
 @media (min-width: 768px) {
   nav section {
-    margin-top: 5vh;
-    margin-bottom: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     margin-right: 2vw;
     justify-content: flex-end;
   }
@@ -536,21 +545,26 @@ nav section {
   }
 }
 nav section ul li {
-  display: flex;
-  justify-content: flex-end;
+  border-right: 1px solid black;
 }
 @media (min-width: 768px) {
   nav section ul li {
+    justify-content: space-between;
     margin-bottom: 0;
     padding-top: 0;
-    padding-left: 25px;
+  }
+  nav section ul li:first-child {
+    border: none;
+  }
+  nav section ul li:last-child {
+    border: none;
   }
 }
 nav section a:link,
 nav section a:visited {
   color: var(--black);
   display: inline-block;
-  padding-bottom: 32px;
+  padding: 10px;
   font-size: 1.25rem;
 }
 @media (min-width: 768px) {
@@ -568,6 +582,15 @@ nav section a:visited:active {
 /* =============
     Header
 ============= */
+header #survival {
+  padding: 5px 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: var(--yellow);
+  font-size: 1.125rem;
+}
+
 #burger-container {
   display: flex;
   justify-content: flex-start;

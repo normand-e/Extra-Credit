@@ -4,17 +4,9 @@
 
 header {
 
-    #survival {
-        padding: 5px 20px;
-        margin-top: 15px;
-        margin-right: 10px;
-        border-radius: 25px;
-
-        background-color: var(--yellow);
-
-        //    border: none;
-        font-size: rem-calc(18);
-    }
+    position: fixed;
+    background: var(--white);
+    width: 100%;
 
 
     div{
@@ -22,46 +14,15 @@ header {
         grid-template-columns: 40% auto;
         #right-side{
             margin-left: auto;
+     
+            @include md{
+                margin-right: 16px;
+                margin-top: 15px;
+            }
+            
         }
     }
-    // aside {
-    //     img {
-    //         padding: 18px 10px 0 20px;
-    //     }
 
-    // }
-
-    // section {
-    //     display: grid;
-    //     grid-template-columns: 50% auto;
-
-    //     div {
-    //         div {
-    //             display: flex;
-    //             justify-content: flex-end;
-
-    //         }
-    //     }
-
-    //     @include md {
-    //         display: block;
-    //     }
-
-    //     div {
-    //         @include md {
-    //             display: grid;
-    //             grid-template-columns: 50% auto;
-
-    //             section {
-    //                 display: flex;
-    //             }
-    //         }
-
-
-
-
-    //     }
-    // }
 }
 
 
@@ -83,4 +44,16 @@ header {
     padding: 16px;
     color: var(--black);
 
+}
+
+#survival {
+    padding: 5px 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 25px;
+
+    background-color: var(--yellow);
+
+    //    border: none;
+    font-size: rem-calc(18);
 }

@@ -94,19 +94,23 @@
     display: flex;
     margin-bottom: 5px;
     margin-top: 4vh;
+    font-size: rem-calc(18);
+    font-weight: 400;
     @include lg{
         margin-top: 5vh;
     }
 
 
     p{
-        width: 100%;
-        font-size: rem-calc(18);
+    
+        
         align-self: center;
+        
     }
     h5{
+        margin-left: auto;
         font-weight: 700;
-        font-size: rem-calc(18);
+        
 
        
     }

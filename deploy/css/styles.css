@@ -492,6 +492,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: "Roboto Slab", serif;
 }
 
 nav {
@@ -543,11 +544,13 @@ nav > section {
   }
 }
 nav > section ul li {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   nav > section ul li {
+    padding-bottom: 0;
     border-right: 2px solid black;
   }
   nav > section ul li:first-child {
@@ -578,13 +581,10 @@ nav > section a:visited:active {
 /* =============
     Header
 ============= */
-header #survival {
-  padding: 5px 20px;
-  margin-top: 15px;
-  margin-right: 10px;
-  border-radius: 25px;
-  background-color: var(--yellow);
-  font-size: 1.125rem;
+header {
+  position: fixed;
+  background: var(--white);
+  width: 100%;
 }
 header div {
   display: grid;
@@ -592,6 +592,12 @@ header div {
 }
 header div #right-side {
   margin-left: auto;
+}
+@media (min-width: 768px) {
+  header div #right-side {
+    margin-right: 16px;
+    margin-top: 15px;
+  }
 }
 
 #burger-container {
@@ -606,6 +612,15 @@ header div #right-side {
   border: none;
   padding: 16px;
   color: var(--black);
+}
+
+#survival {
+  padding: 5px 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: var(--yellow);
+  font-size: 1.125rem;
 }
 
 /* =============
@@ -653,6 +668,9 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
 /* =============
     Top Hero
 ============= */
+#top-hero {
+  padding-top: 2vw;
+}
 #top-hero #top-hero-pos {
   width: 100vw;
   height: 110vw;
@@ -892,6 +910,8 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
   display: flex;
   margin-bottom: 5px;
   margin-top: 4vh;
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 @media (min-width: 1024px) {
   .flex-text {
@@ -899,13 +919,11 @@ footer section a:link:hover, footer section a:link:active, footer section a:visi
   }
 }
 .flex-text p {
-  width: 100%;
-  font-size: 1.125rem;
   align-self: center;
 }
 .flex-text h5 {
+  margin-left: auto;
   font-weight: 700;
-  font-size: 1.125rem;
 }
 
 .yellow {
